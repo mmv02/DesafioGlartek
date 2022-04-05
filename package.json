@@ -1,0 +1,22 @@
+{
+  "name": "desafioglartek",
+  "version": "1.0.0",
+  "description": "desafio glartek",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mmv02/DesafioGlartek.git"
+  },
+  "author": "Márcio Valério",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mmv02/DesafioGlartek/issues"
+  },
+  "homepage": "https://github.com/mmv02/DesafioGlartek#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
