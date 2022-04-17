@@ -16,12 +16,12 @@ app.use(cors());
 const router = express.Router();
 
 function filtrarDados(Dados){
-    
+
     var novaLista = [];
     
     for(const key in Dados)
     {
-        novaLista.push([Dados[key].nome,Dados[key].codigo,Dados[key].data.list]);
+        novaLista.push({nome: Dados[key].nome, codigo: Dados[key].codigo, list: Dados[key].data.list});
     }    
     return novaLista;
 }
