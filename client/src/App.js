@@ -19,10 +19,10 @@ function App() {
   
   }
   atualizarDados();
-  // atualizar a cada 20 minutos
   
   return (
     <div className="App container">
+      <p className='h1'>Meterologia</p>
       <CityList dados={listaDados} />
     </div>
   );
